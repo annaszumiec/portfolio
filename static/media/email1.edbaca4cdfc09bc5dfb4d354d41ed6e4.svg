@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="63px" viewBox="0 0 63 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <defs>
+        <path d="M19.5,3 C26.636781,3 32.7152841,7.53102626 35.0157611,13.8733306 C35.6526803,15.6292861 36,17.5240826 36,19.5 C36,28.6126984 28.6126984,36 19.5,36 C18.8473608,36 18.2035716,35.9621088 17.5707122,35.8884064 C9.36705563,34.9330129 3,27.9600592 3,19.5 C3,10.3873016 10.3873016,3 19.5,3 Z M28.7,11 L10.3,11 C9.035,11 8.0115,12.0125 8.0115,13.25 L8,26.75 C8,27.9875 9.035,29 10.3,29 L28.7,29 C29.965,29 31,27.9875 31,26.75 L31,13.25 C31,12.0125 29.965,11 28.7,11 Z M28.7,13.25 L28.7,15.5 L19.5,21.125 L10.3,15.5 L10.3,13.25 L19.5,18.875 L28.7,13.25 Z" id="path-1"></path>
+        <filter x="-65.2%" y="-62.1%" width="248.5%" height="248.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="3" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.309727382 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-854.000000, -538.000000)">
+            <g id="Group-2" transform="translate(863.000000, 546.000000)">
+                <rect id="Rectangle" fill="#33343A" x="0" y="0" width="39" height="39" rx="5"></rect>
+                <g id="Combined-Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#AEB4A1" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
