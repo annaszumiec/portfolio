@@ -1,0 +1,102 @@
+
+   @import url('https://fonts.cdnfonts.com/css/pez');
+
+                
+
+.home {
+    width: 100%;
+    align-items: center;
+  }
+  
+  .about {
+    width: 100%;
+    height: calc(75vh - 75px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #33343A;
+    color: #f0f0f0;
+  }
+  
+  .about h2 {
+    font-size: 60px;
+    color: #C7C7C7;
+    height: 50px;
+  
+    margin: 20px;
+    font-family: 'PEZ_font', sans-serif;
+  }
+  
+  .about .prompt {
+    width: 40%;
+    font-size: 30px;
+    color:  #AEB4A1;
+    margin-top: 50px;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    
+    
+  }
+  .prompt svg {
+    font-size: 40px;
+    margin: 5px;
+    color: white;
+
+  }
+  
+  .skills {
+    margin-top: 20px;
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  .skills h1 {
+    color:#33343A;
+  }
+  
+  .skills .list {
+    list-style: none;
+    width: 60%;
+    color:#33343A;
+
+  }
+  
+  .list span {
+    font-size: 20px;
+
+  }
+  
+  @media only screen and (max-width: 600px) {
+
+    .about{
+      height: 300px;
+    }
+
+    .about h2 {
+      font-size: 40px;
+    }
+  
+    .about .prompt {
+      margin-top: 10px;
+      font-size: 20px;
+      width: 80%;
+    }
+  
+    .skills {
+      text-align: center;
+    }
+    .list {
+      padding: 0;
+    }
+  
+    .skills h2 {
+      font-size: 30px;
+    }
+  }

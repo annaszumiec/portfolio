@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/pez');
+
+.aboutMe {
+    margin: 100px 50px 50px 100px;
+}
+picture {
+    float: left;
+    margin-bottom: 50px;
+ 
+}
+
+.aboutMe h1 {
+    margin-top: 50px;
+    font-family: 'Lato', sans-serif;
+}
+.annaS {
+    font-size: 24px;
+    font-family: 'PEZ_font', sans-serif;
+}
+.aboutMe  p {
+    font-family: 'Lato', sans-serif;
+    margin-right: 60px;
+}
+
+
+
+
+@media only screen and (max-width: 800px)
+
+{
+    .aboutMe {
+        margin:50px;
+    }
+     .aboutMe picture {
+        margin-top: 50px;
+        margin-bottom: 100px;
+       
+    }
+    #profilepic {
+        max-width: 100%;
+        height: auto;
+    }
+  
+    .aboutMe h1 {
+        font-size: 26px;
+        margin-top: 50px;
+        font-size: 60px;
+        font-family: 'Lato', sans-serif;
+        padding-right: 100px;
+       
+    }
+    .annaS {
+        font-size: 24px;
+        font-family: 'PEZ_font', sans-serif;
+    }
+    .aboutMe  p {
+        margin-right: 0px;
+    }
+
+}
